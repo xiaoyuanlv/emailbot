@@ -1,9 +1,7 @@
 import smtplib
-import speech_recognition as sr
 import pyttsx3
 from email.message import EmailMessage
 
-listener = sr.Recognizer()
 engine = pyttsx3.init()
 
 
